@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-        <title> P.O.T.CY cold store</title>
+        <title> POTCY cold store</title>
         <link href='dist/css/bootstrap.css' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
@@ -20,7 +20,8 @@
         }
         
         .smaller {
-            font-size: 20px;
+            font-size: 35px;
+
         }
 
         a {
@@ -30,7 +31,7 @@
             color:black;
         }
         a.yellow:hover {
-            color:yellow;
+            color:#FFFF00;
         }
         a.red:hover {
             color:red;
@@ -39,32 +40,80 @@
             color:blue;
         }
         a.green:hover {
-            color:green;
+            color:#6FFF00;
         }
         a.white:hover {
             color:white;
         }
         a.purple:hover {
-            color:purple;
+            color:#993CF3;
         }
-
-
+        img {
+            float: right;
+            height: 150px;
+            margin: 20px 70px 0 0;
+        }
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-o-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        img {
+            -webkit-animation: blink .7s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation: blink 1s;
+            -moz-animation-iteration-count: infinite;
+            -o-animation: blink 1s;
+            -o-animation-iteration-count: infinite;
+        }
+        #centre a {
+            text-align: center;
+        }
     </style>
 </head>
 
 <body id="bg">
-    <p style="margin-top:0px"><span class="smaller">P.O.T.CY cold store:</span></p>
+    <p style="margin-top:0px"><span class="smaller">POT.CY cold store:</span> <a href="icecreamparty.html"><img src="images/pink_logo.png" alt="rotating image" id="rotator"></a></p>
+
     <div class="container">
-        <div class="row">
+        <div class="row" >
         <div class='col-sm-2'> </div>
 
         <div class='col-sm-8' style="text-align: justify">
-            <p><a class="black" href="#">Summer</a>  .  
-                <a class="yellow" href="#">Delicious</a>  .  <a class="red" href="#">Icy</a>  .  
-                <a class="blue" href="#">Craft</a>  . <a class="white" href="#">Urban</a>  .  <a class="green" href="#">Canal</a>  .  
-                <a class="white" href="#">Tasty</a>  .  
-                <a class="blue" href="#">Treat</a>  .  <a class="black" href="#">Homemade</a>  .  <a class="red" href="#">Fun</a>  .  <a class="purple" href="#">Fresh</a>  .  
-                <a class="purple" href="#">Cold</a>  .  <a class="blue" href="#">Cycled</a>  .  <a class="yellow" href="#">Local</a>  .  <a class="green" href="#">Chilled</a>  .  <a class="yellow" href="#">Soft</a>  .  <a class="white" href="#">Hackney</a>  .  <a class="green" href="#">Goodie</a>  .  <a class="black" href="#">Fruity</a>  .  <a class="black" href="#">City</a>  .  <a class="yellow" href="#">Handmade</a>  .  <a class="red" href="#">Creamy</a>  ...  <br><a class="purple" href="#">Deserts</a>.  <p>
+            <p><a class="black" href="icecreamparty.html">Summer</a>  .  
+                <a class="yellow" href="icecreamparty.html">Delicious</a>  .  <a class="red" href="icecreamparty.html">Icy</a>  .  
+                <a class="blue" href="icecreamparty.html">Craft</a>  . <a class="white" href="icecreamparty.html">Urban</a>  .  <a class="green" href="icecreamparty.html">Canal</a>  .  
+                <a class="white" href="icecreamparty.html">Tasty</a>  .  
+                <a class="blue" href="icecreamparty.html">Treat</a>  .  <a class="black" href="icecreamparty.html">Homemade</a>  .  <a class="red" href="icecreamparty.html">Fun</a>  .  <a class="purple" href="icecreamparty.html">Fresh</a>  .  
+                <a class="purple" href="icecreamparty.html">Cold</a>  .  <a class="blue" href="icecreamparty.html">Cycled</a>  .  <a class="yellow" href="icecreamparty.html">Local</a>  .  <a class="green" href="icecreamparty.html">Chilled</a>  .  <a class="yellow" href="icecreamparty.html">Soft</a>  .  <a class="white" href="icecreamparty.html">Hackney</a>  .  <a class="green" href="icecreamparty.html">Goodie</a>  .  <a class="black" href="icecreamparty.html">Fruity</a>  .  <a class="black" href="icecreamparty.html">City</a>  .  <a class="yellow" href="icecreamparty.html">Handmade</a>  .  <a class="red" href="icecreamparty.html">Creamy</a>  ...  <br><a class="purple" href="icecreamparty.html">Deserts</a>.  <p>
         </div>
         <div class='col-sm-2'> </div>
         </div>
@@ -72,6 +121,25 @@
 
 
 </div>
+<script type="text/javascript">
+(function() {
+    var rotator = document.getElementById('rotator'); 
+    var imageDir = 'images/';                         
+    var delayInSeconds = 1;                           
 
+    var images = ['blue_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
+
+    // don't change below this line
+    var num = 0;
+    var changeImage = function() {
+        var len = images.length;
+        rotator.src = imageDir + images[num++];
+        if (num == len) {
+            num = 0;
+        }
+    };
+    setInterval(changeImage, delayInSeconds * 1000);
+})();
+</script>
 </body>
 </html>
