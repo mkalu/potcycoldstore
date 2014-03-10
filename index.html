@@ -5,46 +5,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
     <style>
-        #bg {
-            min-height: 620px;
+        .bg {
+            height: 100%;
             background: url("London_Fields.jpg");
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
+            padding: 5px 75px 50px 0;
         }
-
         p {
-            font-size: 50px;
             color: white;
-            margin: 20px 0 0 20px;
         }
-        
         .smaller {
             font-size: 35px;
+<<<<<<< HEAD
 
+=======
+            margin: 0 0 0 10px;
+            position: fixed;
+>>>>>>> gh-pages
         }
-
-        a {
+        #subscribe {
+            margin-top: 60px;
             color: white;
+            font-weight: bold;
         }
-        a.black:hover {
-            color:black;
+        .underline {
+            text-decoration: underline;
         }
+<<<<<<< HEAD
         a.yellow:hover {
             color:#FFFF00;
+=======
+        #InputPostCode {
+            width: 156px;
+>>>>>>> gh-pages
         }
-        a.red:hover {
-            color:red;
+        #InputEmail {
+            width: 240px;
         }
-        a.blue:hover {
-            color:blue;
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
+<<<<<<< HEAD
         a.green:hover {
             color:#6FFF00;
+=======
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+>>>>>>> gh-pages
         }
-        a.white:hover {
-            color:white;
+        @-o-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
+<<<<<<< HEAD
         a.purple:hover {
             color:#993CF3;
         }
@@ -115,11 +153,72 @@
                 <a class="blue" href="icecreamparty.html">Treat</a>  .  <a class="black" href="icecreamparty.html">Homemade</a>  .  <a class="red" href="icecreamparty.html">Fun</a>  .  <a class="purple" href="icecreamparty.html">Fresh</a>  .  
                 <a class="purple" href="icecreamparty.html">Cold</a>  .  <a class="blue" href="icecreamparty.html">Cycled</a>  .  <a class="yellow" href="icecreamparty.html">Local</a>  .  <a class="green" href="icecreamparty.html">Chilled</a>  .  <a class="yellow" href="icecreamparty.html">Soft</a>  .  <a class="white" href="icecreamparty.html">Hackney</a>  .  <a class="green" href="icecreamparty.html">Goodie</a>  .  <a class="black" href="icecreamparty.html">Fruity</a>  .  <a class="black" href="icecreamparty.html">City</a>  .  <a class="yellow" href="icecreamparty.html">Handmade</a>  .  <a class="red" href="icecreamparty.html">Creamy</a>  ...  <br><a class="purple" href="icecreamparty.html">Deserts</a>.  <p>
         </div>
+=======
+        //use in bottom half// {
+            -webkit-animation: blink 3s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation: blink 3s;
+            -moz-animation-iteration-count: infinite;
+            -o-animation: blink 3s;
+            -o-animation-iteration-count: infinite;
+        }
+        img {
+            margin: 80px 0 0 125px;
+            height: 500px;
+        }
+        .explain_potcy {
+            min-height: 670px;
+            background: url("images/stripe_background3.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+    <p><span class="smaller">POT.CY cold store:</span></p>
+
+
+        <div class="row" >
+>>>>>>> gh-pages
         <div class='col-sm-2'> </div>
+        <div class='col-sm-8' style="text-align: center">
+            <p><a href="icecreamparty.html"><img src="images/pink_logo.png" alt="rotating image" id="rotator"></a>
+            </p>
         </div>
+        <div class='col-sm-2'>
+            <form role="form" id="subscribe" style="margin-right: 15px">
+                    <p style="width: 250px">Leave your details for some <br><span class="underline">FREE LOCAL CRAFT ICE CREAM</span></p>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="InputPostCode" placeholder="Post Code e.g. E8">
+                </div>
+                <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Tell me when you're selling near me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        </div>
+    </div>
+    </div>
+    <div class="explain_potcy">
 
+    </div>
 
+<script type="text/javascript">
+(function() {
+    var rotator = document.getElementById('rotator'); 
+    var imageDir = 'images/';                         
+    var delayInSeconds = 3;                           
 
+<<<<<<< HEAD
 </div>
 <script type="text/javascript">
 (function() {
@@ -128,6 +227,9 @@
     var delayInSeconds = 1;                           
 
     var images = ['blue_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
+=======
+    var images = ['blue_logo.png', 'white_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
+>>>>>>> gh-pages
 
     // don't change below this line
     var num = 0;
