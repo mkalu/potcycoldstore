@@ -17,13 +17,15 @@
             color: white;
         }
         .smaller {
-            font-size: 35px;
-<<<<<<< HEAD
-
-=======
+            font-size: 45px;
             margin: 0 0 0 10px;
-            position: fixed;
->>>>>>> gh-pages
+        }
+        #smaller_black {
+            font-size: 45px;
+            margin: 0 0 0 100px;
+            color: black;
+            text-align: center;
+            margin-bottom: 
         }
         #subscribe {
             margin-top: 60px;
@@ -33,64 +35,13 @@
         .underline {
             text-decoration: underline;
         }
-<<<<<<< HEAD
-        a.yellow:hover {
-            color:#FFFF00;
-=======
         #InputPostCode {
             width: 156px;
->>>>>>> gh-pages
         }
         #InputEmail {
             width: 240px;
         }
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-<<<<<<< HEAD
-        a.green:hover {
-            color:#6FFF00;
-=======
-        @-moz-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
->>>>>>> gh-pages
-        }
-        @-o-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-<<<<<<< HEAD
-        a.purple:hover {
-            color:#993CF3;
-        }
-        img {
-            float: right;
-            height: 150px;
-            margin: 20px 70px 0 0;
-        }
+
         @-webkit-keyframes blink {
             0% {
                 opacity: 1;
@@ -124,46 +75,20 @@
                 opacity: 1;
             }
         }
-        img {
-            -webkit-animation: blink .7s;
+        #small_logo {
+            -webkit-animation: blink 1.5s;
             -webkit-animation-iteration-count: infinite;
             -moz-animation: blink 1s;
             -moz-animation-iteration-count: infinite;
             -o-animation: blink 1s;
             -o-animation-iteration-count: infinite;
-        }
-        #centre a {
-            text-align: center;
-        }
-    </style>
-</head>
+            height: 80px;
+            padding-right: 68px;
+            float: right;
 
-<body id="bg">
-    <p style="margin-top:0px"><span class="smaller">POT.CY cold store:</span> <a href="icecreamparty.html"><img src="images/pink_logo.png" alt="rotating image" id="rotator"></a></p>
-
-    <div class="container">
-        <div class="row" >
-        <div class='col-sm-2'> </div>
-
-        <div class='col-sm-8' style="text-align: justify">
-            <p><a class="black" href="icecreamparty.html">Summer</a>  .  
-                <a class="yellow" href="icecreamparty.html">Delicious</a>  .  <a class="red" href="icecreamparty.html">Icy</a>  .  
-                <a class="blue" href="icecreamparty.html">Craft</a>  . <a class="white" href="icecreamparty.html">Urban</a>  .  <a class="green" href="icecreamparty.html">Canal</a>  .  
-                <a class="white" href="icecreamparty.html">Tasty</a>  .  
-                <a class="blue" href="icecreamparty.html">Treat</a>  .  <a class="black" href="icecreamparty.html">Homemade</a>  .  <a class="red" href="icecreamparty.html">Fun</a>  .  <a class="purple" href="icecreamparty.html">Fresh</a>  .  
-                <a class="purple" href="icecreamparty.html">Cold</a>  .  <a class="blue" href="icecreamparty.html">Cycled</a>  .  <a class="yellow" href="icecreamparty.html">Local</a>  .  <a class="green" href="icecreamparty.html">Chilled</a>  .  <a class="yellow" href="icecreamparty.html">Soft</a>  .  <a class="white" href="icecreamparty.html">Hackney</a>  .  <a class="green" href="icecreamparty.html">Goodie</a>  .  <a class="black" href="icecreamparty.html">Fruity</a>  .  <a class="black" href="icecreamparty.html">City</a>  .  <a class="yellow" href="icecreamparty.html">Handmade</a>  .  <a class="red" href="icecreamparty.html">Creamy</a>  ...  <br><a class="purple" href="icecreamparty.html">Deserts</a>.  <p>
-        </div>
-=======
-        //use in bottom half// {
-            -webkit-animation: blink 3s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation: blink 3s;
-            -moz-animation-iteration-count: infinite;
-            -o-animation: blink 3s;
-            -o-animation-iteration-count: infinite;
         }
-        img {
-            margin: 80px 0 0 125px;
+        #rotator {
+            margin: 0 0 0 125px;
             height: 500px;
         }
         .explain_potcy {
@@ -173,17 +98,22 @@
             background-attachment: fixed;
             background-position: center;
         }
-
+        h2 {
+            color: black;
+        }
+        h3 {
+            color: black;
+        }
     </style>
 </head>
 
 <body>
+  
     <div class="bg">
     <p><span class="smaller">POT.CY cold store:</span></p>
 
 
-        <div class="row" >
->>>>>>> gh-pages
+        <div class="row" id="summer_fun">
         <div class='col-sm-2'> </div>
         <div class='col-sm-8' style="text-align: center">
             <p><a href="icecreamparty.html"><img src="images/pink_logo.png" alt="rotating image" id="rotator"></a>
@@ -198,11 +128,6 @@
                 <div class="form-group">
                     <input type="password" class="form-control" id="InputPostCode" placeholder="Post Code e.g. E8">
                 </div>
-                <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Tell me when you're selling near me
-                </label>
-              </div>
               <button type="submit" class="btn btn-default">Submit</button>
         </form>
         </div>
@@ -210,7 +135,42 @@
     </div>
     <div class="explain_potcy">
 
+        <div class="row" >
+            <p style="padding-left: 30px"><span id="smaller_black"><br>POT.CY cold store:</span> <img id="small_logo" src="images/small_black_logo.png"></p>
+
+        <div class='col-sm-3'></div>
+        <div class='col-sm-7' id="spiel">
+
+            <h2 style="margin-top: 0px"><strong> What is POT.CY cold store?</strong></h2>
+            <h3>POT.CY stands for Product Of The CitY. We make great food with ingredients sourced as local to London as possible. It's food made in the city, from the city.</h3>
+            <h2><strong>What do we want to do?</strong></h2>
+                <h3><ul>
+                    <li>We want to make delicious, quality treats</li>
+                    <li>We want to make <a href="http://mkalu.github.io/productofthecity/" target="_blank">urban food</a> accessible and affordable</li>
+                </ul> </h3>
+            <h2> <strong>How can you taste these delicious iced treats?</strong></h2>
+            <h3> Leave your details below and we'll get back to you about upcoming free samples and when we're selling close to you!</h3>
+            <br>
+        </div>
+        <div class='col-sm-2'></div>
     </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8" style="text-align:center">
+            <form class="form-inline" role="form">
+            <div class="form-group">
+                <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="InputPostCode" placeholder="Post Code e.g. E8">
+            </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    
+</div>
 
 <script type="text/javascript">
 (function() {
@@ -218,18 +178,7 @@
     var imageDir = 'images/';                         
     var delayInSeconds = 3;                           
 
-<<<<<<< HEAD
-</div>
-<script type="text/javascript">
-(function() {
-    var rotator = document.getElementById('rotator'); 
-    var imageDir = 'images/';                         
-    var delayInSeconds = 1;                           
-
-    var images = ['blue_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
-=======
     var images = ['blue_logo.png', 'white_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
->>>>>>> gh-pages
 
     // don't change below this line
     var num = 0;
