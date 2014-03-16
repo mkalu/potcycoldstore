@@ -1,0 +1,101 @@
+.bg {
+            height: 100%;
+            background: url("../images/London_Fields.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            padding: 5px 75px 50px 0;
+        }
+        p {
+            color: white;
+        }
+        .smaller {
+            font-size: 45px;
+            margin: 0 0 0 10px;
+        }
+        #smaller_black {
+            font-size: 45px;
+            margin: 0 0 0 100px;
+            color: black;
+            text-align: center;
+            margin-bottom: 
+        }
+        #subscribe {
+            margin-top: 60px;
+            color: white;
+            font-weight: bold;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-o-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        #small_logo {
+            -webkit-animation: blink 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation: blink 1s;
+            -moz-animation-iteration-count: infinite;
+            -o-animation: blink 1s;
+            -o-animation-iteration-count: infinite;
+            height: 80px;
+            padding-right: 68px;
+            float: right;
+
+        }
+        #rotator {
+            margin: 0 0 0 125px;
+            height: 500px;
+        }
+        .explain_potcy {
+            min-height: 670px;
+            background: url("../images/stripe_background3.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            padding: 20px;
+        }
+        h2 {
+            color: black;
+        }
+        h3 {
+            color: black;
+        }
+        #first_signup {
+            margin-left: 0px;
+        }
+
+        .center {
+            text-align: center;
+        }

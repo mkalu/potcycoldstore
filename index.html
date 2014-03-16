@@ -1,110 +1,11 @@
 <!DOCTYPE html>
 <head>
         <title> POTCY cold store</title>
+        <link rel="stylesheet" type="text/css" href='css/main.css'>
+        <link rel="stylesheet" type="text/css" href="css/small.css">
+
         <link href='dist/css/bootstrap.css' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
-    <style>
-        .bg {
-            height: 100%;
-            background: url("London_Fields.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            padding: 5px 75px 50px 0;
-        }
-        p {
-            color: white;
-        }
-        .smaller {
-            font-size: 45px;
-            margin: 0 0 0 10px;
-        }
-        #smaller_black {
-            font-size: 45px;
-            margin: 0 0 0 100px;
-            color: black;
-            text-align: center;
-            margin-bottom: 
-        }
-        #subscribe {
-            margin-top: 60px;
-            color: white;
-            font-weight: bold;
-        }
-        .underline {
-            text-decoration: underline;
-        }
-        #InputPostCode {
-            width: 156px;
-        }
-        #InputEmail {
-            width: 240px;
-        }
-
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-moz-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-o-keyframes blink {
-            0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        #small_logo {
-            -webkit-animation: blink 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation: blink 1s;
-            -moz-animation-iteration-count: infinite;
-            -o-animation: blink 1s;
-            -o-animation-iteration-count: infinite;
-            height: 80px;
-            padding-right: 68px;
-            float: right;
-
-        }
-        #rotator {
-            margin: 0 0 0 125px;
-            height: 500px;
-        }
-        .explain_potcy {
-            min-height: 670px;
-            background: url("images/stripe_background3.png");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-        }
-        h2 {
-            color: black;
-        }
-        h3 {
-            color: black;
-        }
-    </style>
 </head>
 
 <body>
@@ -114,22 +15,30 @@
 
 
         <div class="row" id="summer_fun">
-        <div class='col-sm-2'> </div>
-        <div class='col-sm-8' style="text-align: center">
-            <p><a href="icecreamparty.html"><img src="images/pink_logo.png" alt="rotating image" id="rotator"></a>
+        <div class='col-md-2'> </div>
+        <div class='col-md-8' style="text-align: center">
+            <p><img src="images/pink_logo.png" alt="rotating image" id="rotator">
             </p>
         </div>
-        <div class='col-sm-2'>
-            <form role="form" id="subscribe" style="margin-right: 15px">
-                    <p style="width: 250px">Leave your details for some <br><span class="underline">FREE LOCAL CRAFT ICE CREAM</span></p>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+        <div class='col-md-2'>
+            <form class="form-horizontal" role="form" id="top_form">
+              <div class="form-group">
+                    <p>Leave your details for some <br><span class="underline">FREE LOCAL CRAFT ICE CREAM</span></p>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                 </div>
-                <div class="form-group">
-                    <input type="password" class="form-control" id="InputPostCode" placeholder="Post Code e.g. E8">
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Post Code e.g. E8">
                 </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10" id="first_signup">
+                  <button type="submit" class="btn btn-default">Sign up</button>
+                </div>
+              </div>
+            </form>
         </div>
     </div>
     </div>
@@ -138,8 +47,8 @@
         <div class="row" >
             <p style="padding-left: 30px"><span id="smaller_black"><br>POT.CY cold store:</span> <img id="small_logo" src="images/small_black_logo.png"></p>
 
-        <div class='col-sm-3'></div>
-        <div class='col-sm-7' id="spiel">
+        <div class='col-md-3'></div>
+        <div class='col-md-7' id="spiel">
 
             <h2 style="margin-top: 0px"><strong> What is POT.CY cold store?</strong></h2>
             <h3>POT.CY stands for Product Of The CitY. We make great food with ingredients sourced as local to London as possible. It's food made in the city, from the city.</h3>
@@ -152,11 +61,11 @@
             <h3> Leave your details below and we'll get back to you about upcoming free samples and when we're selling close to you!</h3>
             <br>
         </div>
-        <div class='col-sm-2'></div>
+        <div class='col-md-2'></div>
     </div>
     <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8" style="text-align:center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 center">
             <form class="form-inline" role="form">
             <div class="form-group">
                 <input type="email" class="form-control" id="InputEmail" placeholder="Email">
@@ -167,7 +76,7 @@
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-md-2"></div>
     </div>
     
 </div>
