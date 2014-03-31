@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <head>
         <title> POTCY cold store</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href='css/main.css'>
         <link rel="stylesheet" type="text/css" href="css/small.css">
-
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href='dist/css/bootstrap.css' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -41,30 +44,43 @@
             </form>
         </div>
     </div>
+    <div class="row" id="socmed">
+        <ul class="contact">
+            <li><a class="fa fa-envelope-o fa-3x" href="mailto:michelle@productofthecity.com?subject=Potcy%20cold%20store" target="_blank"></a></li> 
+            <li><a class="fa fa-twitter-square fa-3x" href="http://twitter.com" target="_blank"></a></li>
+            <li><a class="fa fa-facebook-square fa-3x" href="http://facebook.com" target="_blank"></a></li>
+        </ul>
+    </div>
     </div>
     <div class="explain_potcy">
 
         <div class="row" >
-            <p style="padding-left: 30px"><span id="smaller_black"><br>POT.CY cold store:</span> <img id="small_logo" src="images/small_black_logo.png"></p>
+            <div class="outside">
+                <img src="images/border.png" id="border">
+                <p><span id="smaller_black">POT.CY cold store:</span></p>
+            </div>
 
         <div class='col-md-3'></div>
         <div class='col-md-7' id="spiel">
 
             <h2 style="margin-top: 0px"><strong> What is POT.CY cold store?</strong></h2>
-            <h3>POT.CY stands for Product Of The CitY. In our cold store we make great iced treats in the city, from the city.</h3>
-            <h2><strong>What do we want to do?</strong></h2>
-                <h3><ul>
-                    <li>We want to make delicious, quality treats</li>
-                    <li>We want to make accessible and affordable <a href="http://mkalu.github.io/productofthecity/" target="_blank">urban food</a> </li>
-                </ul> </h3>
+            <h3>POT.CY stands for Product Of The CitY. In our cold store we stock iced treats with ingredients sourced from local producers, foraged or from food surplus.</h3>
+            <h2><strong>Why are we doing this?</strong></h2>
+                <h3>We believe that <a href="http://mkalu.github.io/productofthecity/" target="_blank">urban food</a> should be accessible and affordable and can play an important role in the future of food in the city. </h3>
             <h2> <strong>How can you have a taste?</strong></h2>
             <h3> Leave your details below for info on upcoming free samples and when we're selling close to you!</h3>
             <br>
         </div>
         <div class='col-md-2'></div>
     </div>
-    <div class="row">
-        <div class="col-md-2"></div>
+    <div class="row" id="secondform">
+        <div class="col-md-2">
+            <ul class="contact2">
+                <li><a class="fa fa-envelope-o fa-3x" href="mailto:michelle@productofthecity.com?subject=Potcy%20cold%20store" target="_blank"></a> </li>
+                <li><a class="fa fa-twitter-square fa-3x" href="http://twitter.com" target="_blank"></a></li>
+                <li><a class="fa fa-facebook-square fa-3x" href="http://facebook.com"  target="_blank"></a></li>
+            </ul>
+        </div>
         <div class="col-md-8 center">
             <form class="form-inline" role="form">
             <div class="form-group">
@@ -87,7 +103,7 @@
     var imageDir = 'images/';                         
     var delayInSeconds = 3;                           
 
-    var images = ['blue_logo.png', 'white_logo.png', 'green_logo.png', 'yellow_logo.png', 'black_logo.png', 'pink_logo.png'];
+    var images = ['yellow_logo.png','green_logo.png','white_logo.png','blue_logo.png','black_logo.png','pink_logo.png'];
 
     // don't change below this line
     var num = 0;
