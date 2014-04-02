@@ -37,10 +37,11 @@
             margin: 0 0 0 10px;
         }
         .not_as_small {
+
             font-size: 30px;
         }
         .outside p {
-            margin-bottom: 30px;
+            margin-bottom: 0;
         }
         #smaller_black {
             font-size: 45px;
@@ -117,7 +118,8 @@
             height: 5px;
         }
         form {
-            margin-top: 40px;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
         .contact li, .contact2 li {
             display: inline;
@@ -143,4 +145,22 @@
         }
         .outside {
             text-align: center;
+        }
+        #line {
+            margin-top: 20px;
+            margin-bottom: 33px;
+            border: 0;
+            border-top: 3px solid #333333;
+            width: 18.3%;
+        }
+        .link {
+            color: rgb(51, 51, 51);
+            border-bottom:1px dotted rgb(51, 51, 51);
+            text-decoration: none;
+        }
+        .link:hover {
+            color: rgb(0, 255, 0);
+            border-bottom:1px dotted rgb(0, 255, 0);
+            text-decoration: none;
+            font-weight: bold;
         }
