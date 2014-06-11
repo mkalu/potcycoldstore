@@ -119,11 +119,6 @@
             text-align: center;
             font-size: 25px;
         }
-        #acrynonym {
-            font-size: 32px;
-            text-align: center;
-        }
-
 
         #bg {
             min-width: 100%;
@@ -136,8 +131,7 @@
 
         #story {
             min-width: 100%;
-            height: 100%;
-            background: url("../images/stripe_background3.png");
+            background: url("../images/stripe_background2.png");
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -154,22 +148,13 @@
         #pic_story {
             padding: 0 0 35px 0;
         }
-        #events {
-            min-width: 100%;
-            height: 100%;
-            background: url("../images/stripe_background2.png");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            padding: 0 0 5px 0;
-        }
         .smaller_text {
             font-size: 20px;
         }
         #shop {
             min-width: 100%;
             height: 100%;
-            background: url("../images/stripe_background1.png");
+            background: url("../images/stripe_background4.png");
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -178,16 +163,23 @@
         div.ecwid-productBrowser-auth {  
             display: none; 
         }
-        #contact {
+        #event {
             min-width: 100%;
-            height: 100%;
-            background: url("../images/stripe_background4.png");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            padding: 20px 0 15px 0;
         }
+        #offer {
+            min-width: 100%;
+        }
+        hr {
+            margin-top:15px;
+            margin-bottom: 10px;
+            width: 40%;
+            border-top: 1px solid #333333;
+        }
+
         .form-inline {
             text-align: center;
             margin-top: 15px;
+        }
+        .form-control {
+            width: 90%;
         }
